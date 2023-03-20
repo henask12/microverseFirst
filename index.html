@@ -4,9 +4,12 @@
 <meta charset="utf-8">
 <title>The Full Monica and Chandler Story | Friends</title>
 <link rel="icon" href="images/favicon.ico" type= "image/x-icon">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <link rel = "stylesheet" type = "text/css" href = "style.css" />
+<script src="https://use.fontawesome.com/2903eb4599.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="index.js" type="text/javascript"></script>
 </head>
 <body>
 <!-- BEGIN OF MAIN NAVBAR-->
@@ -35,9 +38,7 @@
   <div class="lwrap">
     <!-- BEGIN OF VIDEO SECTION-->
     <div class = "lwrap-vidwrap">
-      <!-- <iframe class = "video" src="https://www.youtube.com/embed/22ir_jdkYnc"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/nvzkHGNdtfk?start=30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
-      <iframe class="video" src="https://www.youtube.com/embed/TA26aE3OyNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     <iframe class="video" src="https://www.youtube.com/embed/TA26aE3OyNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
     <!-- END OF VIDEO SECTION-->
     <!-- BEGIN OF HEADING SECTION-->
@@ -49,13 +50,16 @@
           <ul id="btnsnavbar">
             <li id="counter">
               <ul>
-                <li ><button class="fas fa-thumbs-up" >
-                  
-                    171K |
-                </button>
-                </li>
+
+                <div class="container"> 
+                  <a class="like"><i class="fa fa-thumbs-o-up"></i>  
+                      <input class="qty1" name="qty1" readonly="readonly" type="text" value="130" />
+                  </a>
                 
-                <li><i class="fas fa-thumbs-down" ></i></li>
+                <a class="like"><i class="fa fa-thumbs-o-down"></i>  
+               <input class="qty1" name="qty1" readonly="readonly" type="text" value="30" />
+                  </a>
+              </div>
               </ul>
             </li>
             <li>
