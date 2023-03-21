@@ -11,10 +11,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="index.js" type="text/javascript"></script>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/c8ee3dd930.js"></script>
+<!-- <script src="https://kit.fontawesome.com/c8ee3dd930.js"></script> -->
 </head>
 <body>
-<!-- BEGIN OF MAIN NAVBAR-->
 <nav class= "navbar">
   <div class="navbar_left-section-wrapper">
     <i class="fas fa-bars fa-lg"></i>
@@ -36,14 +35,10 @@
   </div>
 </nav>
 <main class ="mainwrap">
-  <!-- BEGIN OF LEFT SECTION-->
   <div class="lwrap">
-    <!-- BEGIN OF VIDEO SECTION-->
     <div class = "lwrap-vidwrap">
      <iframe class="video" src="https://www.youtube.com/embed/TA26aE3OyNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    <!-- END OF VIDEO SECTION-->
-    <!-- BEGIN OF HEADING SECTION-->
     <section class="lwrap-hwrap">
       <div class ="lwrap-hwrap_hgrp" >
         <br/>
@@ -67,7 +62,7 @@
 
                 <div class="container"> 
                   <a class="like"><i class="fa fa-thumbs-o-up"></i>  
-                      <input class="qty1" name="qty1" readonly="readonly" type="text" value="130" />
+                      <input class="qty1" name="qty1" readonly="readonly" type="text" value="171K" />
                   </a>
                 
                 <a class="like"><i class="fa fa-thumbs-o-down"></i>  
@@ -88,46 +83,80 @@
         </aside>
       </div>
       </div>
-<div class='card-wrapper'>
-  <div class='card-text-wrapper'>
-    <h6>8,126,633 views  Dec 24, 2019  #Netflix</h6>
-      <p >Monica and Chandler are the lesser mentioned but absolutely most consistent couple from Friends. This is their journey, from flashbacks of their first meeting and later insistence from Monica that she'd never get with Chandler, to their hook up in London, their wedding and ultimately babies!</p>
-    
-    <p class='card-text hide'>This is the full Monica and Chandler story.<br><br>
 
-➡️SUBSCRIBE FOR MORE: http://bit.ly/29kBByr<br><br>
-
-Find Netflix UK on:<br>
-➡️TWITTER: http://bit.ly/29lYvcs<br>
-➡️INSTAGRAM: http://bit.ly/29slD8O<br>
-➡️FACEBOOK: http://bit.ly/29mx00a<br><br>
-
-Or visit the Netflix WEBSITE: http://nflx.it/29BcWb5<br><br>
-
-About Netflix:<br>
-#Netflix is the world's leading internet entertainment service with over 158 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members can play, pause and resume watching, all without adverts or commitments.</p>
-    
+      <div class='card-wrapper'>
+        <div class='card-text-wrapper'>
+          <h4>8,126,633 views  Dec 24, 2019  #Netflix</h4>
+            <p >Monica and Chandler are the lesser mentioned but absolutely most consistent couple from Friends. This is their journey, from flashbacks of their first meeting and later insistence from Monica that she'd never get with Chandler, to their hook up in London, their wedding and ultimately babies!</p>
+            <br>
+          <p class='card-text hide'>
+            <strong>This is the full Monica and Chandler story.</strong>
+            <br><br>
+      
+      ➡️SUBSCRIBE FOR MORE: http://bit.ly/29kBByr<br><br>
+      
+      Find Netflix UK on:<br>
+      ➡️TWITTER: http://bit.ly/29lYvcs<br>
+      ➡️INSTAGRAM: http://bit.ly/29slD8O<br>
+      ➡️FACEBOOK: http://bit.ly/29mx00a<br><br>
+      
+      Or visit the Netflix WEBSITE: http://nflx.it/29BcWb5<br><br>
+      
+      About Netflix:<br>
+      #Netflix is the world's leading internet entertainment service with over 158 million paid memberships in over 190 countries enjoying TV series, documentaries and feature films across a wide variety of genres and languages. Members can watch as much as they want, anytime, anywhere, on any internet-connected screen. Members can play, pause and resume watching, all without adverts or commitments.</p>
+          
+        </div>
+      </div>
+      
   </div>
-</div>
-
-</div>
-      </div>
-      </div>
-    </section>
-<!-- END OF HEADING SECTION-->
-
 <!-- END OF LEFT WRAP BLOCK-->
 <div class = "rwrap"><!--RIGHT WRAP-->
 <div class ="rwrap-navbar">
+  <div><button class="button btn rounded filled">All</button>
+    <button class="button btn rounded filled">Comedy</button>
+  <button class="button btn rounded filled">Monica Geller</button>
+  <button class="button btn rounded filled"><strong>></strong></button>
+</div>
     <span id="upnexttxt">Up next</span>
     <span id="autoplay">
       <span id="autoplaytxt" >Autoplay</span>
       <img  id= "upnextimg" src="images/autoplay.png" alt="autoplay">
     </span>
 </div>
-
-<!-- END OF RIGHT WRAP BLOCK-->
-</div><!--END OF RIGHT WRAP-->
+<!-- BEGIN OF VIDEO THUMBNAIL SECTION 1-->
+<div class = rwrap-thumb>
+  <div class = "rwrap-vidwrap myGallery">
+    <img src="images/mqdefault_6s (1).webp"/>
+    <!-- <iframe width="160" height="115" src="https://www.youtube.com/embed/M1Wl91bnAMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+  </div>
+  <section class="rwrap-blurb">
+    <h4>I got the shotgun. You got the briefcase.</h4>
+    <p>jrmythcom</p>
+    <p>1.1M views</p>
+  </section>
+</div>
+<!-- END OF VIDEO THUMBNAIL SECTION 1-->
+</div>
 </main>
+
+
+
+<script type="text/javascript">
+  $('.card-text-wrapper').click(function() {
+    clickToExapndCards($(this));
+  });
+  
+  function clickToExapndCards($obj){
+    var clickedElement = $obj;
+    if (clickedElement.hasClass('expanded')) {
+      clickedElement.find('.card-text').hide('slow');
+      clickedElement.removeClass('expanded');
+    } else {
+       clickedElement.find('.card-text').show('slow');
+      clickedElement.addClass('expanded');
+    }
+    
+  };
+</script>
 </body>
 </html>
