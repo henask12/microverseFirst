@@ -105,7 +105,7 @@ Example command:
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/henask12/hello-microverse.git
+Clone this repository to your desired folder: https://github.com/henask12/microverseFirst.git
 
 <!--
 Example commands:
