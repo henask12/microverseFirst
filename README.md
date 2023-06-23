@@ -148,6 +148,6 @@ I would like to thank my Coding partner and My Code Reviewer
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [LICENSE](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
