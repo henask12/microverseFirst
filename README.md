@@ -109,10 +109,9 @@ To run tests, run the following command: you just need a simple web browser to r
 
 ## 🔭 Future Features <a name="future-features"></a>
 
--   [ ] **Display Landing Porfolio page**
--   [ ] **Display Works Porfolio page**
+-   [ ] **Display More Comment Section**
+-   [ ] **Display Interaction**
 -   [ ] **Display About Me page**
--   [ ] **Display Contact Me page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
