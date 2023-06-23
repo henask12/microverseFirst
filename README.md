@@ -73,11 +73,11 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need: you need to know the basic of HTML5, CSS, and basic knowledge about Git
+In order to run this project you need: you need to know the basic of HTML5, CSS,Js, and basic knowledge about Git
 
 ### Setup
 
-Clone this repository to your desired folder: https://github.com/henask12/Portfolio.git
+Clone this repository to your desired folder: https://github.com/henask12/microverseFirst.git
 
 ### Install
 
