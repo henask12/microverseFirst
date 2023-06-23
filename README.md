@@ -51,7 +51,9 @@ This project is a detailed clone of the YouTube webpage, created using HTML, CSS
 
 ### Key Features <a name="key-features"></a>
 
--   **Portfolio Landing page**
+-   **Header section with the YouTube logo, search bar, and navigation links.**
+-   **Main content area displaying video thumbnails with titles, uploaders, view counts, and durations.**
+-   **Video player with playback controls, related videos, and comments.**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
